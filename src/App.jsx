@@ -1,10 +1,12 @@
 import "./App.css";
-import { BirthdayBuddy } from "./BirthdayBuddy/BirthdayBuddy";
+// import { BirthdayBuddy } from "./BirthdayBuddy/BirthdayBuddy";
+import { Tours } from "./Tours/Tours";
 
 function App() {
   return (
     <main>
-      <BirthdayBuddy />
+      <Tours />
+      {/* <BirthdayBuddy /> */}
     </main>
   );
 }
