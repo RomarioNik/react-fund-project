@@ -3,6 +3,7 @@ import "./App.css";
 // import { Tours } from "./Tours/Tours";
 import { Reviews } from "./Reviews/Reviews";
 import { AlternativeReviews } from "./Reviews/AlternativeReviews";
+import { Accordion } from "./Accordion/Accordion";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <BirthdayBuddy /> */}
       {/* <Tours /> */}
       {/* <Reviews /> */}
-      <AlternativeReviews />
+      {/* <AlternativeReviews /> */}
+      <Accordion />
     </main>
   );
 }
