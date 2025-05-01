@@ -4,7 +4,8 @@ import "./App.css";
 // import { Reviews } from "./Reviews/Reviews";
 // import { AlternativeReviews } from "./Reviews/AlternativeReviews";
 // import { Accordion } from "./Accordion/Accordion";
-import { Menu } from "./Menu/Menu";
+// import { Menu } from "./Menu/Menu";
+import { Tabs } from "./Tabs/Tabs";
 
 function App() {
   return (
@@ -14,9 +15,16 @@ function App() {
       {/* <Reviews /> */}
       {/* <AlternativeReviews /> */}
       {/* <Accordion /> */}
-      <Menu />
+      {/* <Menu /> */}
+      <Tabs />
     </main>
   );
 }
 
 export default App;
+
+// const obj = {
+//   str: "We ${0} after midnight",
+//   list_0: ["arrived", "did arrive", "didn't arrived"],
+//   answer_0: "arrived",
+// };
