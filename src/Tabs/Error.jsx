@@ -1,3 +1,7 @@
-export const Error = () => {
-  return <div>Error</div>;
+export const Error = ({ text }) => {
+  return (
+    <div>
+      <p>{text}</p>
+    </div>
+  );
 };

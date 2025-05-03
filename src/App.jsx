@@ -5,7 +5,9 @@ import "./App.css";
 // import { AlternativeReviews } from "./Reviews/AlternativeReviews";
 // import { Accordion } from "./Accordion/Accordion";
 // import { Menu } from "./Menu/Menu";
-import { Tabs } from "./Tabs/Tabs";
+// import { Tabs } from "./Tabs/Tabs";
+import { Slider } from "./Slider/Slider";
+import { SlickCarousel } from "./Slider/SlickCarousel";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <AlternativeReviews /> */}
       {/* <Accordion /> */}
       {/* <Menu /> */}
-      <Tabs />
+      {/* <Tabs /> */}
+      <Slider />
+      {/* <SlickCarousel /> */}
     </main>
   );
 }

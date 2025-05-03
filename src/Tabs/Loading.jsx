@@ -1,7 +1,3 @@
-export const Loading = ({ text }) => {
-  return (
-    <div>
-      <p>{text}</p>
-    </div>
-  );
+export const Loading = () => {
+  return <div className="loading"></div>;
 };

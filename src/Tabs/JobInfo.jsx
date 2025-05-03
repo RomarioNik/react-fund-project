@@ -1,8 +1,6 @@
 import { JobDuties } from "./JobDuties";
 
-export const JobInfo = (props) => {
-  const { title, company, dates, duties } = props.job;
-
+export const JobInfo = ({ job: { title, dates, company, duties } }) => {
   return (
     <article className="job-info">
       <h3>{title}</h3>

@@ -37,15 +37,17 @@ export const Tabs = () => {
   }, []);
 
   if (isLoading) {
-    <section className="jobs-center">
-      <Loading text="Wait a second. We are loading the data" />
-    </section>;
+    return (
+      <section className="jobs-center">
+        <Loading />
+      </section>
+    );
   }
 
   if (error) {
     return (
       <section className="jobs-center">
-        <Error />
+        <Error text={error} />
       </section>
     );
   }
