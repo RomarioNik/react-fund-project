@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { list } from "./data";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { Slide } from "./Slide";
-import "./Slider.css";
+// import "./Slider.css";
 
 export const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

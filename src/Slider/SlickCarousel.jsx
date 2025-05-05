@@ -11,7 +11,7 @@ export const SlickCarousel = () => {
     infinite: true,
     speed: 500,
     // fade: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
     pauseOnHover: true,
   };

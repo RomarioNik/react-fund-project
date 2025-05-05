@@ -5,11 +5,9 @@ export const Slide = ({
   style,
 }) => {
   return (
-    // <article className="slick-slide" style={style}>
-    <article className="slide" style={style}>
-      <div className="imageContainer">
-        <img className="person-img" src={image} alt={name} />
-      </div>
+    <article style={style}>
+      {/* <article className="slide" style={style}> */}
+      <img className="person-img" src={image} alt={name} />
       <h5 className="name">{name}</h5>
       <p className="title">{title}</p>
       <p className="text">{quote}</p>

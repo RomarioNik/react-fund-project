@@ -6,8 +6,10 @@ import "./App.css";
 // import { Accordion } from "./Accordion/Accordion";
 // import { Menu } from "./Menu/Menu";
 // import { Tabs } from "./Tabs/Tabs";
-import { Slider } from "./Slider/Slider";
-import { SlickCarousel } from "./Slider/SlickCarousel";
+// import { Slider } from "./Slider/Slider";
+// import "../src/Slider/Slider.css";
+// import { SlickCarousel } from "./Slider/SlickCarousel";
+import { Lorem } from "./Lorem/Lorem";
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
       {/* <Accordion /> */}
       {/* <Menu /> */}
       {/* <Tabs /> */}
-      <Slider />
+      {/* <Slider /> */}
       {/* <SlickCarousel /> */}
+      <Lorem />
     </main>
   );
 }
