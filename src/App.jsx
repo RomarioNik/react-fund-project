@@ -10,7 +10,8 @@ import "./App.css";
 // import { Slider } from "./Slider/Slider";
 // import { SlickCarousel } from "./Slider/SlickCarousel";
 // import { Lorem } from "./Lorem/Lorem";
-import { ColorGenerator } from "./ColorGenerator/ColorGenerator";
+// import { ColorGenerator } from "./ColorGenerator/ColorGenerator";
+import { GroceryBud } from "./GroceryBud/GroceryBud";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Slider /> */}
       {/* <SlickCarousel /> */}
       {/* <Lorem /> */}
-      <ColorGenerator />
+      {/* <ColorGenerator /> */}
+      <GroceryBud />
 
       <ToastContainer position="top-right" />
     </main>
