@@ -12,7 +12,9 @@ import "./App.css";
 // import { Lorem } from "./Lorem/Lorem";
 // import { ColorGenerator } from "./ColorGenerator/ColorGenerator";
 // import { GroceryBud } from "./GroceryBud/GroceryBud";
-import { NavBar } from "./NavBar/NavBar";
+// import { NavBar } from "./NavBar/NavBar";
+import { Home } from "./SideBar/Home";
+import { AppProvider } from "./SideBar/globalContext/AppProvider";
 
 function App() {
   return (
@@ -29,7 +31,10 @@ function App() {
       {/* <Lorem /> */}
       {/* <ColorGenerator /> */}
       {/* <GroceryBud /> */}
-      <NavBar />
+      {/* <NavBar /> */}
+      <AppProvider>
+        <Home />
+      </AppProvider>
 
       <ToastContainer position="top-right" />
     </main>
