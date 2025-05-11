@@ -11,7 +11,8 @@ import "./App.css";
 // import { SlickCarousel } from "./Slider/SlickCarousel";
 // import { Lorem } from "./Lorem/Lorem";
 // import { ColorGenerator } from "./ColorGenerator/ColorGenerator";
-import { GroceryBud } from "./GroceryBud/GroceryBud";
+// import { GroceryBud } from "./GroceryBud/GroceryBud";
+import { NavBar } from "./NavBar/NavBar";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <SlickCarousel /> */}
       {/* <Lorem /> */}
       {/* <ColorGenerator /> */}
-      <GroceryBud />
+      {/* <GroceryBud /> */}
+      <NavBar />
 
       <ToastContainer position="top-right" />
     </main>
