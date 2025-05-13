@@ -12,9 +12,11 @@ import "./App.css";
 // import { Lorem } from "./Lorem/Lorem";
 // import { ColorGenerator } from "./ColorGenerator/ColorGenerator";
 // import { GroceryBud } from "./GroceryBud/GroceryBud";
-// import { NavBar } from "./NavBar/NavBar";
-import { Home } from "./SideBar/Home";
-import { AppProvider } from "./SideBar/globalContext/AppProvider";
+// // import { NavBar } from "./NavBar/NavBar";
+// import { Home } from "./SideBar/Home";
+// import { AppProvider } from "./SideBar/globalContext/AppProvider";
+import { Strapi } from "./Strapi/Strapi";
+import { AppProvider } from "./Strapi/globalContext/AppProvider";
 
 function App() {
   return (
@@ -32,8 +34,11 @@ function App() {
       {/* <ColorGenerator /> */}
       {/* <GroceryBud /> */}
       {/* <NavBar /> */}
-      <AppProvider>
+      {/* <AppProvider>
         <Home />
+      </AppProvider> */}
+      <AppProvider>
+        <Strapi />
       </AppProvider>
 
       <ToastContainer position="top-right" />
