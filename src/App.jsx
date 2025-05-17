@@ -15,8 +15,10 @@ import "./App.css";
 // // import { NavBar } from "./NavBar/NavBar";
 // import { Home } from "./SideBar/Home";
 // import { AppProvider } from "./SideBar/globalContext/AppProvider";
-import { Strapi } from "./Strapi/Strapi";
-import { AppProvider } from "./Strapi/globalContext/AppProvider";
+// import { Strapi } from "./Strapi/Strapi";
+// import { AppProvider } from "./Strapi/globalContext/AppProvider";
+import { Cart } from "./Cart/Cart";
+import { AppProvider } from "./Cart/globalContext/AppProvider";
 
 function App() {
   return (
@@ -37,8 +39,11 @@ function App() {
       {/* <AppProvider>
         <Home />
       </AppProvider> */}
-      <AppProvider>
+      {/* <AppProvider>
         <Strapi />
+      </AppProvider> */}
+      <AppProvider>
+        <Cart />
       </AppProvider>
 
       <ToastContainer position="top-right" />
